@@ -2,7 +2,7 @@
 ** File:
 **   $Id: hs_platform_cfg.h 1.3 2016/08/05 09:40:27EDT mdeschu Exp  $
 **
-**   Copyright © 2007-2014 United States Government as represented by the 
+**   Copyright ï¿½ 2007-2014 United States Government as represented by the 
 **   Administrator of the National Aeronautics and Space Administration. 
 **   All Other Rights Reserved.  
 **
@@ -430,7 +430,7 @@
 **       This string shouldn't be longer than #OS_MAX_PATH_LEN for the
 **       target platform in question
 */
-#define HS_AMT_FILENAME                "/cf/apps/hs_amt.tbl"
+#define HS_AMT_FILENAME                "/cf/hs_amt.tbl"
 
 /** \hscfg Event Monitor Table (EMT) filename
 **
@@ -442,7 +442,7 @@
 **       This string shouldn't be longer than #OS_MAX_PATH_LEN for the
 **       target platform in question
 */
-#define HS_EMT_FILENAME                "/cf/apps/hs_emt.tbl"
+#define HS_EMT_FILENAME                "/cf/hs_emt.tbl"
 
 /** \hscfg Execution Counter Table (XCT) filename
 **
@@ -454,7 +454,7 @@
 **       This string shouldn't be longer than #OS_MAX_PATH_LEN for the
 **       target platform in question
 */
-#define HS_XCT_FILENAME                "/cf/apps/hs_xct.tbl"
+#define HS_XCT_FILENAME                "/cf/hs_xct.tbl"
 
 /** \hscfg Message Actions Table (MAT) filename
 **
@@ -466,7 +466,7 @@
 **       This string shouldn't be longer than #OS_MAX_PATH_LEN for the
 **       target platform in question
 */
-#define HS_MAT_FILENAME                "/cf/apps/hs_mat.tbl"
+#define HS_MAT_FILENAME                "/cf/hs_mat.tbl"
 
 /** \hscfg CPU Utilization Calls per Mark (custom)
 **
